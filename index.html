@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Bloqshuffle</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="imgs/b.svg" />
+    <audio id="mySound" src="./sounds/orb.mp3"></audio>
+    <audio id="mySound2" src="./sounds/idle2.mp3"></audio>
+  </head>
+  <body>
+    <div id="container">
+    <header>
+      <div>
+      </div>
+      <span>
+        <div class="floating-area">
+          <a href="https://bloqshuffle.ludolua.repl.co/">
+            <img src="./imgs/logo.svg" alt="Bloqshuffle" class="logo" />
+          </a>
+        </div>
+      </span>
+    </header>
+    <main class="app">
+      <section>
+        <h2>It's shuffle time!</h2>
+        <p>Bote ai uns filminhos pra sortear!</p>
+        <hr />
+        <p class="text-left">Bota os filminhos aqui:</p>
+
+        <div class="formulario">
+          <label for="entradaNomes">Adicione os nomes para o sorteio</label>
+          <textarea
+            id="entradaNomes"
+            placeholder="Coloque os nomes separados por vírgula (Fantastic Mr. Fox, Turning Red, Kimi)"
+          ></textarea>
+          <br />
+          <button class="botaoSortear">Sortear</button>
+        </div>
+        <div class="resultado">
+          <span class="fechar">X</span>
+          <p>Bora ver:</p>
+        </div>
+      </section>
+    </main>
+    <div id="container">
+    <footer>
+      <h1 class="test">Made with</h1>
+      <h1 class="heart"><span>&nbsp&#10084&nbsp</span></h1>
+      <h1 class="test">by&nbsp</h1>
+      <h1 class="ludo"><a href="https://ludolua.com" target="_blank">Ludo</a></h1>
+    </footer>
+    </div>
+  </div>
+  </body>
+  <script src="./js/script.js"></script>
+ </html>
